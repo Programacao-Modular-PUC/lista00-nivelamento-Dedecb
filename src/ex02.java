@@ -41,7 +41,6 @@ public class ex02 {
             System.out.println("X nao esta entre y e z;");
         }
 
-
         if (x % y == 0) {
             System.out.println("X eh divisivel por y");
         } else {
