@@ -36,9 +36,9 @@ public class ex02 {
         }
 
         if ((x > y && x < z) || (x > z && x < y)) {
-            System.out.println("X esta entre ente y e z;");
+            System.out.println("X esta entre ente y e z");
         } else {
-            System.out.println("X nao esta entre y e z;");
+            System.out.println("X nao esta entre y e z");
         }
 
         if (x % y == 0) {
