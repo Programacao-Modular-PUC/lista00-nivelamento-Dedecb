@@ -13,7 +13,7 @@ public class ex02 {
         int maior, menor;
         int[] valores = new int[3];
 
-        System.out.print("Escreva valores para x, y e z: ");
+        System.out.print("Escreva valores para x, y e z:\n ");
         x = sc.nextInt();
         y = sc.nextInt();
         z = sc.nextInt();
