@@ -21,38 +21,35 @@ public class ex02 {
         maior = x;
         menor = x;
 
-        if(y > maior){
+        if (y > maior) {
             maior = y;
         }
-        if(y < menor){
+        if (y < menor) {
             menor = y;
         }
 
-        if(z > maior){
+        if (z > maior) {
             maior = z;
         }
-        if(z < menor){
+        if (z < menor) {
             menor = z;
         }
 
-        if((x > y && x < z) || (x > z && x < y)){
+        if ((x > y && x < z) || (x > z && x < y)) {
             System.out.println("X esta entre ente y e z;");
-        }
-        else{
+        } else {
             System.out.println("X nao esta entre y e z;");
         }
 
-        if(x % y == 0){
+        if (x % y == 0) {
             System.out.println("X eh divisivel por y");
-        }
-        else{
+        } else {
             System.out.println("X nao eh divisivel por y");
         }
 
-        if(x % z == 0){
+        if (x % z == 0) {
             System.out.println("X eh divisivel por Z");
-        }
-        else{
+        } else {
             System.out.println("X nao eh divisivel por Z");
         }
     }
